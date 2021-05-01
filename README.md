@@ -36,21 +36,21 @@ Nesse exemplo, números como 3 e 4 são armazenados no topo da stack, e os demai
 ## Exemplo de execução
 
 ```
-Tos:     3  // tos significa top of stack, que é o elemtento mais alto da pilha. É sempre mostrado
+Tos:     3  // tos significa top of stack, que é o elemento mais alto da pilha. É sempre mostrado
 Tos:     4
-Add:     3     4
+Add:     3     4  // 3+4
 Tos:     7
 Tos:     5
-Sub:     7     5
+Sub:     7     5  // 7-5
 Tos:     2
 Tos:     3
-Mul:     2     3
+Mul:     2     3 // 3*2
 Tos:     6
 Tos:     2
-Div:     6     2
+Div:     6     2 // 6/2
 Tos:     3
-Halt:  ---- ----
-Tos:     3
+Halt:  ---- ---- // fim
+Tos:     3       // Novamente, o topo da pilha (stack).
 ```
 ## Contribuindo
 
