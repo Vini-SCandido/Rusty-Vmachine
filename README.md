@@ -52,6 +52,8 @@ A maquina virtual consegue distinguir os comandos dentre informações por causa
                         // é mais facil identificar o comando quando ele esta escrito em base hexadecimal.
 ```
 
+Você pode encontrar toda a lógica por trás da leitura e interpretação dos programas executados em [/src/cpu.rs](Rusty-Vmachine/src/cpu.rs)
+
 ## Exemplo de execução
 
 Programa:
