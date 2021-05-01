@@ -36,14 +36,14 @@ Nesse exemplo, números como 3 e 4 são armazenados no topo da stack, e os demai
 
 0x40000000 // encerra o programa
 ```
-A maquina virtual consegue distinguir comandos de informações por causa do 31º bit
-```
-0x40000001 = 01000000000000000000000000000001 <- esse bit diz o tipo do comando. Nesse caso, adição.
-              ^
+A maquina virtual consegue distinguir os comandos dentre informações por causa do 31º bit
+```rust
+0x40000001 == 01000000000000000000000000000001 <- esse bit diz o tipo do comando. Nesse caso, adição.
+               ^
               quando esse bit é 1, temos um comando
               
-0x40000001 = 1073741825 // outra forma de representar o comando, nesse caso, em base decimal. Como dito anteriormente,
-                           é mais facil identificar o comando quando ele esta escrito em base hexadecimal.
+0x40000001 == 1073741825 // outra forma de representar o comando, nesse caso, em base decimal. Como dito anteriormente,
+                        // é mais facil identificar o comando quando ele esta escrito em base hexadecimal.
 ```
 
 ## Exemplo de execução
