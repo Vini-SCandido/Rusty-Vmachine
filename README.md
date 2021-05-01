@@ -7,10 +7,7 @@ Rusty Vmachine é um pequeno projeto que me ajudou a entender um pouco mais sobr
 Como é escrito em rust, é necessário ter o compilador.
 Veja [Instalando Rust](https://www.rust-lang.org/pt-BR/tools/install)
 
-Você pode usar git clone para transferir esse repositório para sua máquina.
-
-
-Após a instalação, basta entrar na pasta "vmachine2" e digitar
+Você pode usar git clone para transferir esse repositório para sua máquina, e após a instalação, basta entrar na pasta "vmachine2" e digitar
 ```
 cargo run --release
 ```
@@ -20,7 +17,8 @@ cargo run --release
 use vmachine2::cpu::Stackvm; // importa o struct Stackvm, que representa a máquina virtual
 fn main() {
     let mut vm = Stackvm::new(vec![0; 1000000]); //Aqui é "vm" é declarado como instância da máquina virtual.
-    let program = vec![3, 4, 0x40000001, 5, 0x40000002, 3, 0x40000003, 2, 0x40000004, 0x40000000]; // Esse é o programa em si
+    // Esse é o programa contendo as instruções.
+    let program = vec![3, 4, 0x40000001, 5, 0x40000002, 3, 0x40000003, 2, 0x40000004, 0x40000000];
     vm.load_program(program); // carrega o prgrama para dentro da memória
     vm.run(); // roda o programa
 }
