@@ -58,6 +58,6 @@ Como estou aprendendo a linguaguem, você pode deixar algum comentário sobre co
 
 ## Reconhecimentos
 
-Só consegui chegar até aqui com a ajuda [desse tutorial](https://youtu.be/BNXP0w4Ppto). É escrito em c++, então meu código é apenas uma tradução do original.
+Só consegui chegar até aqui com a ajuda [desse tutorial](https://youtu.be/BNXP0w4Ppto). É escrito em C++, então meu código é apenas uma tradução do original.
 O repositório do tutorial pode ser encontrado aqui: https://github.com/pbohun/stack-vm-tutorials
 
