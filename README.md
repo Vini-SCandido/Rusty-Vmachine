@@ -5,6 +5,7 @@ Rusty Vmachine é um pequeno projeto que me ajudou a entender um pouco mais sobr
 ## Por que Rust?
 
 Rust é uma linguagem que tem crescido muito nos últimos tempos, tanto que foi classificada como uma das linguagens mais favoritas pelo Stack Overflow. Suas características centrais envolvem o uso adequado de memória, que previne muitos bugs que acontecem em linguagens como C/C++, e rapidez.
+
 Rust é apontada como uma linguagem de baixo nível, mais usada na programação de sistemas, por isso é ideal para esse projeto, além do fato que de colabora para a compreensão de vários tópicos dentro da área de sistemas.
 
 Você pode começar a estudar a linguagem aqui: [Aprenda Rust](https://www.rust-lang.org/pt-BR/learn)
