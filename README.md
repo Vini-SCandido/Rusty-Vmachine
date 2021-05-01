@@ -2,15 +2,14 @@
 
 Rusty Vmachine é um pequeno projeto que me ajudou a entender um pouco mais sobre o funcionamento dos computadores, linguagem assembly, emuladores e máquinas virtuais. É um programa que simula um pequeno computador, com seus componentes, como memória e a stack, descritos em listas.
 
-## Uso
+## Por que Rust?
+
+Rust é uma linguagem que tem crescido muito nos últimos tempos, tanto que foi classificada como uma das linguagens mais favoritas pelo Stack Overflow. Suas características centrais envolvem o uso adequado de memória, que previne muitos bugs que acontecem em linguagens como C/C++, e rapidez. Rust é apontada como de programação de baixo nível, mais usada na programação de sistemas, por isso é ideal para esse projeto, além do fato que de colabora para a compreensão de vários tópicos dentro da área de sistemas.
+
+Você pode começar a estudar a linguagem aqui: [Aprenda Rust](https://www.rust-lang.org/pt-BR/learn)
 
 Como é escrito em rust, é necessário ter o compilador.
 Veja [Instalando Rust](https://www.rust-lang.org/pt-BR/tools/install)
-
-Você pode usar git clone para transferir esse repositório para sua máquina, e após a instalação, basta entrar na pasta e digitar:
-```
-cargo run --release
-```
 
 ## Passando um programa
 ```rust
