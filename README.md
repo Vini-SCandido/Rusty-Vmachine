@@ -35,6 +35,10 @@ Nesse exemplo, números como 3 e 4 são armazenados no topo da stack, e os demai
 ```
 ## Exemplo de execução
 
+Programa:
+```rust
+let program = vec![3, 4, 0x40000001, 5, 0x40000002, 3, 0x40000003, 2, 0x40000004, 0x40000000];
+```
 ```
 Tos:     3  // tos significa top of stack, que é o elemento mais alto da pilha. É sempre mostrado
 Tos:     4
