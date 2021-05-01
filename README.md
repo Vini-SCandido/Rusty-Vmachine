@@ -7,7 +7,7 @@ Rusty Vmachine é um pequeno projeto que me ajudou a entender um pouco mais sobr
 Como é escrito em rust, é necessário ter o compilador.
 Veja [Instalando Rust](https://www.rust-lang.org/pt-BR/tools/install)
 
-Você pode usar git clone para transferir esse repositório para sua máquina, e após a instalação, basta entrar na pasta "vmachine2" e digitar
+Você pode usar git clone para transferir esse repositório para sua máquina, e após a instalação, basta entrar na pasta e digitar:
 ```
 cargo run --release
 ```
