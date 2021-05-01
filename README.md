@@ -8,9 +8,6 @@ Rust é uma linguagem que tem crescido muito nos últimos tempos, tanto que foi 
 
 Você pode começar a estudar a linguagem aqui: [Aprenda Rust](https://www.rust-lang.org/pt-BR/learn)
 
-Como é escrito em rust, é necessário ter o compilador.
-Veja [Instalando Rust](https://www.rust-lang.org/pt-BR/tools/install)
-
 ## Passando um programa
 ```rust
 use vmachine2::cpu::Stackvm; // importa o struct Stackvm, que representa a máquina virtual
