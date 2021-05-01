@@ -46,7 +46,7 @@ Você pode encontrar toda a lógica por trás da leitura e interpretação dos p
 
 0x40000000 // encerra o programa
 ```
-A maquina virtual consegue distinguir os comandos dentre informações por causa do 31º bit
+A máquina virtual consegue distinguir os comandos dentre informações por causa do 31º bit
 ```rust
 0x40000001 == 01000000000000000000000000000001 // <- o primeiro bit diz o tipo do comando. Nesse caso, adição.
                ^
