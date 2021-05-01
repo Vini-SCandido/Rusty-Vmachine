@@ -23,7 +23,7 @@ fn main() {
     vm.run(); // roda o programa
 }
 ```
-Nesse exemplo, números como 3 e 4 são armazenados no topo da stack, e os demais números são comandos matemáticos que atuam nos dois elementos do topo da stack. Note, que eles estão na base hexadecimal, mas não faz diferença representar tudo em hexadecimal. É só um meio de visualizar melhor os comandos entre os datas nos quais atuam.
+Nesse exemplo, números como 3 e 4 são armazenados no topo da stack, e os demais números são comandos matemáticos que atuam nos dois elementos do topo da stack. Note, que eles estão na base hexadecimal, mas não faz diferença representar tudo em hexadecimal. É só um meio de visualizar melhor os comandos entre a informação nos quais atuam.
 
 ```rust
 0x40000001 // operação de adição
