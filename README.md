@@ -22,7 +22,8 @@ use vmachine2::cpu::Stackvm;
 
 fn main() {
     //Aqui é "vm" é declarado como instância da máquina virtual.
-    let mut vm = Stackvm::new(vec![0; 1000000]); 
+    let mut vm = Stackvm::new(vec![0; 1000000]); // o parametro em "new" corresponde à um array de 1.000.000 elementos
+                                                 // que representa a memória. 
     // Esse é o programa contendo as instruções.
     let program = vec![3, 4, 0x40000001, 5, 0x40000002, 3, 0x40000003, 2, 0x40000004, 0x40000000];
     // carrega o prgrama para dentro da memória
@@ -43,7 +44,7 @@ Nesse exemplo, números como 3 e 4 são armazenados no topo da stack, e os demai
 ```
 A maquina virtual consegue distinguir os comandos dentre informações por causa do 31º bit
 ```rust
-0x40000001 == 01000000000000000000000000000001 <- esse bit diz o tipo do comando. Nesse caso, adição.
+0x40000001 == 01000000000000000000000000000001 // <- o primeiro bit diz o tipo do comando. Nesse caso, adição.
                ^
               quando esse bit é 1, temos um comando
               
