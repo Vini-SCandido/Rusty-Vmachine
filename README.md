@@ -26,7 +26,7 @@ fn main() {
                                                  // que representa a memória. 
     // Esse é o programa contendo as instruções.
     let program = vec![3, 4, 0x40000001, 5, 0x40000002, 3, 0x40000003, 2, 0x40000004, 0x40000000];
-    // carrega o prgrama para dentro da memória
+    // carrega o programa para dentro da memória
     vm.load_program(program); 
     // roda o programa
     vm.run(); 
