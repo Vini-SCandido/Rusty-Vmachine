@@ -65,6 +65,6 @@ Como estou aprendendo a linguaguem, você pode deixar algum comentário sobre co
 
 ## Reconhecimentos
 
-Só consegui chegar até aqui com a ajuda [desse tutorial](https://youtu.be/BNXP0w4Ppto). É escrito em C++, então meu código é apenas uma reformulação dos conceitos apresentadso, traduzidos para a linguagem rust.
+Só consegui chegar até aqui com a ajuda [desse tutorial](https://youtu.be/BNXP0w4Ppto). É escrito em C++, então meu código é apenas uma reformulação dos conceitos apresentados, traduzidos para a linguagem rust.
 O repositório do tutorial pode ser encontrado aqui: https://github.com/pbohun/stack-vm-tutorials
 
