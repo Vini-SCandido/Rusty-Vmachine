@@ -2,12 +2,20 @@
 
 Rusty Vmachine é um pequeno projeto que me ajudou a entender um pouco mais sobre o funcionamento dos computadores, linguagem assembly, emuladores e máquinas virtuais. É um programa que simula um pequeno computador, com seus componentes, como memória e a stack, descritos em listas.
 
-##Uso
+## Uso
 
 Como é escrito em rust, é necessário ter o compilador.
 Veja [Instalando Rust](https://www.rust-lang.org/pt-BR/tools/install)
 
-##Passando um programa
+Você pode usar git clone para transferir esse repositório para sua máquina.
+
+
+Após a instalação, basta entrar na pasta "vmachine2" e digitar
+```
+cargo run --release
+```
+
+## Passando um programa
 ```rust
 use vmachine2::cpu::Stackvm; // importa o struct Stackvm, que representa a máquina virtual
 fn main() {
@@ -27,7 +35,7 @@ Nesse exemplo, números como 3 e 4 são armazenados no topo da stack, e os demai
 
 0x40000000 // encerra o programa
 ```
-##Exemplo de execução
+## Exemplo de execução
 
 ```
 Tos:     3  // tos significa top of stack, que é o elemtento mais alto da pilha. É sempre mostrado
@@ -46,11 +54,11 @@ Tos:     3
 Halt:  ---- ----
 Tos:     3
 ```
-##Contribuindo
+## Contribuindo
 
 Como estou aprendendo a linguaguem, você pode deixar algum comentário sobre como posso melhorar meu código
 
-##Reconhecimentos
+## Reconhecimentos
 
 Só consegui chegar até aqui com a ajuda [desse tutorial](https://youtu.be/BNXP0w4Ppto). É escrito em c++, então meu código é apenas uma tradução do original.
 O repositório do tutorial pode ser encontrado aqui: https://github.com/pbohun/stack-vm-tutorials
