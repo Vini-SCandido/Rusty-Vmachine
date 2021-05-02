@@ -1,4 +1,4 @@
-# Rusty-Vmachine
+# Rusty Vmachine
 
 Rusty Vmachine é um pequeno projeto que me ajudou a entender um pouco mais sobre o funcionamento dos computadores, linguagem assembly, emuladores e máquinas virtuais. É um programa que simula um pequeno computador, com seus componentes, como memória e a stack, descritos em listas.
 
