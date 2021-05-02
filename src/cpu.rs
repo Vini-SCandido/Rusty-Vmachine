@@ -41,7 +41,7 @@ impl Stackvm {
     fn do_primitive(&mut self) {
         match self.dat {
             0 => {
-                println!("Halt:  ---- ----");
+                println!("Hlt:  ---- ----");
                 self.run = false;
             },
             1 => {
