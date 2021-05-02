@@ -41,26 +41,26 @@ impl Stackvm {
     fn do_primitive(&mut self) {
         match self.dat {
             0 => {
-                println!("Hlt:  ---- ----");
+                println!("Hlt: ---- ----");
                 self.run = false;
             },
             1 => {
-                println!("Add: {:>5} {:>5}", self.memory[self.st - 1], self.memory[self.st]);
+                println!("Add: {:>4} {:>4}", self.memory[self.st - 1], self.memory[self.st]);
                 self.memory[self.st - 1] = self.memory[self.st - 1] + self.memory[self.st];
                 self.st -= 1;
             },
             2 => {
-                println!("Sub: {:>5} {:>5}", self.memory[self.st - 1], self.memory[self.st]);
+                println!("Sub: {:>4} {:>4}", self.memory[self.st - 1], self.memory[self.st]);
                 self.memory[self.st - 1] = self.memory[self.st - 1] - self.memory[self.st];
                 self.st -= 1;
             },
             3 => {
-                println!("Mul: {:>5} {:>5}", self.memory[self.st - 1], self.memory[self.st]);
+                println!("Mul: {:>4} {:>4}", self.memory[self.st - 1], self.memory[self.st]);
                 self.memory[self.st - 1] = self.memory[self.st - 1] * self.memory[self.st];
                 self.st -= 1;
             },
             4 => {
-                println!("Div: {:>5} {:>5}", self.memory[self.st - 1], self.memory[self.st]);
+                println!("Div: {:>4} {:>4}", self.memory[self.st - 1], self.memory[self.st]);
                 self.memory[self.st - 1] = self.memory[self.st - 1] / self.memory[self.st];
                 self.st -= 1;
             },
@@ -86,7 +86,7 @@ impl Stackvm {
             self.fetch();
             self.decode();
             self.execute();
-            println!("Tos: {:>5}", self.memory[self.st]);
+            println!("Tos: {:>4}", self.memory[self.st]);
         }
     }
 
