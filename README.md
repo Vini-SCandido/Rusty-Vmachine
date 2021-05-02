@@ -63,21 +63,21 @@ Programa:
 let program = vec![3, 4, 0x40000001, 5, 0x40000002, 3, 0x40000003, 2, 0x40000004, 0x40000000];
 ```
 ```
-Tos:     3          // tos significa top of stack, que é o elemento mais alto da pilha. É sempre mostrado
+Tos:     3         // tos significa top of stack, que é o elemento mais alto da pilha. É sempre mostrado
 Tos:     4
-Add:     3     4    // 3+4
-Tos:     7          // O Resultado sobe para o topo da pilha
+Add:     3    4    // 3+4
+Tos:     7         // O Resultado sobe para o topo da pilha
 Tos:     5
-Sub:     7     5    // 7-5
-Tos:     2          // Resultado da subtração
+Sub:     7    5    // 7-5
+Tos:     2         // Resultado da subtração
 Tos:     3
-Mul:     2     3    // 3*2
-Tos:     6          // Resultado da multiplicação
+Mul:     2    3    // 3*2
+Tos:     6         // Resultado da multiplicação
 Tos:     2
-Div:     6     2    // 6/2
-Tos:     3          // Resultado da divisão
-Halt:  ---- ----    // fim
-Tos:     3          // Novamente, o topo da pilha (stack).
+Div:     6    2    // 6/2
+Tos:     3         // Resultado da divisão
+Hlt:  ---- ----    // fim
+Tos:     3         // Novamente, o topo da pilha (stack).
 ```
 ## Contribuindo
 
